@@ -1,0 +1,8 @@
+CREATE TABLE burgers (
+    id INT AUTO_INCREMENT NOT NULL,
+    burger_name varchar(255) NOT NULL,
+    createdAt TIMESTAMP NOT NULL,
+    PRIMARY KEY(id)
+);
+
+ALTER TABLE burgers ALTER createdAt SET DEFAULT CURRENT_TIMESTAMP;
